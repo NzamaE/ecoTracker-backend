@@ -1,6 +1,6 @@
 const express = require('express');
 const Activity = require('../models/Activity');
-const User = require('../models/User');
+const User = require('../models/user');
 const { ObjectId } = require('mongoose').Types;
 const { authenticateToken } = require('../middleware/auth');
 

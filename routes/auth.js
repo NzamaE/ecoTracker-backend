@@ -1,7 +1,7 @@
 // routes/auth.js - Authentication routes
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../models/user');
 const { validateRegistration, validateLogin } = require('../middleware/validation');
 
 const router = express.Router();

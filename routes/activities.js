@@ -1,7 +1,7 @@
 // routes/activities.js - Corrected version
 const express = require('express');
 const Activity = require('../models/Activity');
-const User = require('../models/User'); // ✅ ADD THIS MISSING IMPORT
+const User = require('../models/user'); // ✅ ADD THIS MISSING IMPORT
 const { authenticateToken } = require('../middleware/auth');
 const { validateActivity } = require('../middleware/validation');
 
